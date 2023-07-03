@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Nova reserva</title>
+    <script src="main.js" defer></script>
+  </head>
+  <body align="center">
+    <h1>Nova reserva</h1>
+    <br />
+    <label for="">selecione sua reserva:</label>
+    <select name="reserva" id="reserva">
+      <option value="">academia</option>
+      <option value="">cinema</option>
+      <option value="">piscina</option>
+    </select>
+    <br />
+    <br />
+    <label for="">selecione a data: </label>
+    <input type="date" name="" id="data" />
+    <br />
+    <br />
+    <label for="">selecione o horario: </label>
+    <input type="time" name="" id="horario" />
+    <br />
+    <br />
+    <input type="checkbox" name="" id="checkbox" />
+    <label for="">você se compromete a respeitar toda a legislação vingente no Condominio?</label>
+    <br /><br />
+    <button id="reservar" type="submit" onclick="verificarPreenchimento()">Reservar</button>
+    <br /><br />
+    <form action="index.html">
+      <td><button type="submit">Voltar</button></td>
+    </form>
+  </body>
+</html>
